@@ -47,7 +47,7 @@ print(name_list)
 name_list = ["少羽", "浮木", "父母", "nb", "666"]
 del name_list[2]
 print(name_list)
-    # 方法2 列表.pop(下标)
+    # 方法2 列表.pop(下标)，并返回该值
 name_list = ["少羽", "浮木", "父母", "nb", "666"]
 name_list.pop(1)
 print(name_list)
@@ -65,4 +65,5 @@ print(count)
 
 # 统计列表全部元素数量   len(列表)
 num = len(name_list)
+
 print(num)

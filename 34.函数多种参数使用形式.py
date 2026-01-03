@@ -21,13 +21,14 @@ user_info(name = "nancy", age = 8, gender = "男")
 
 # 不定长参数(可变参数)
 # 不定长的位置传递
-def user_info(*args):      # 传入参数被args接受，且合并成元组
+def user_info(*args):      # *args    接收所有位置参数，且封装成元组
     print(f"args的内容是{args}，类型是{type(args)}")
 
 user_info("Tom", 1, 2, "boy")
 
-# 关键字传递   接受“键=值”形式  key-word
+# 接收所有关键字参数   接受“键=值”形式  key-word
 def user_info(**kwargs):
     print(f"kwargs的内容是{kwargs}， 类型是{type(kwargs)}")
+
 
 user_info(name = "Tom", age = 8)

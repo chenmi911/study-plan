@@ -1,3 +1,4 @@
+# 形参列表顺序为：普通参数->默认参数（缺省）->不定长参数
 # 位置参数
 def user_info(name, age, gender):
     print(f"您的名字是{name}, 年龄是{age}, 性别是{gender}")
@@ -32,3 +33,4 @@ def user_info(**kwargs):
 
 
 user_info(name = "Tom", age = 8)
+
